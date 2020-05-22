@@ -1,0 +1,26 @@
+{
+  "name": "YMBundleBridge",
+  "version": "0.1.0",
+  "summary": "iOS App组件间通信模块",
+  "description": "iOS App组件间通信模块，支持URL页面,Target-Action模式调用和事件总线模式",
+  "homepage": "http://gerrit.ymfd.corp/#/admin/projects/ios-BundleBridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiangping": "ping.xiang@yimifudao.com"
+  },
+  "source": {
+    "git": "ssh://gerrit.ymfd.corp:29418/ios-BundleBridge",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YMBundleBridge/Classes/**/*",
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/**"
+  }
+}
